@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "prediccion_gravedad_siniestros_viales_caba"
+version = "0.0.1"
+description = "Predicci\u00f3n de la gravedad de siniestros viales en CABA"
+authors = [
+  { name = "Juan Pablo Monllor" },
+]
+
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    
+]
+requires-python = "~=3.14.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["prediccion_gravedad_siniestros_viales_caba"]
+include = ["pyproject.toml", "prediccion_gravedad_siniestros_viales_caba/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["prediccion_gravedad_siniestros_viales_caba"]
+force-sort-within-sections = true
+
