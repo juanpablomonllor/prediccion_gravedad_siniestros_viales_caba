@@ -14,9 +14,7 @@
 
 ## Descripción
 
-Proyecto de aprendizaje supervisado que busca anticipar si un siniestro vial ocurrido en la Ciudad Autónoma de Buenos Aires tendrá víctimas graves o fatales, a partir de la información disponible al inicio: tipo de vehículo, contraparte, tipo de vía, zona, horario y condiciones como la lluvia o el tipo de día.
-
-La estimación podría servir como apoyo para priorizar recursos de emergencia y para identificar las combinaciones de mayor riesgo en políticas de seguridad vial.
+Proyecto de aprendizaje supervisado que busca anticipar si un siniestro vial ocurrido en la Ciudad Autónoma de Buenos Aires tendrá víctimas graves o fatales, a partir de la información disponible al inicio: tipo de vehículo, contraparte, tipo de vía, horario y condiciones como la lluvia, el tipo de día o la estación del año.
 
 ## Pregunta y objetivo
 
@@ -31,7 +29,7 @@ La estimación podría servir como apoyo para priorizar recursos de emergencia y
 | Entrega | Contenido | Estado |
 |---|---|---|
 | 1. Descripción y formulación del objetivo | Problema, objetivos, contexto, tipo de problema y modelos posibles | Entregada |
-| 2. Descripción del dataset y origen | Repositorio, informe del dataset, diccionario de datos y notebook de exploración y preprocesamiento | En curso |
+| 2. Descripción del dataset y origen | Repositorio, [informe del dataset y diccionario de datos](docs/descripcion_dataset.md) y [notebook de exploración y preprocesamiento](notebooks/1.0-jpm-eda-preprocesamiento.ipynb) | Entregada |
 | 3. Presentación del modelo y análisis de resultados | Modelo, métricas, conclusiones y video | Pendiente |
 
 ## Datos
