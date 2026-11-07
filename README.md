@@ -37,7 +37,7 @@ Proyecto de aprendizaje supervisado que busca anticipar si un siniestro vial ocu
 | Fuente | Uso en el proyecto |
 |---|---|
 | [Buenos Aires Data - Siniestros viales](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales) (Observatorio de Movilidad y Seguridad Vial, GCBA, 2019-2025) | Dataset principal |
-| [Open-Meteo](https://open-meteo.com) (datos meteorológicos históricos por hora) | Lluvia a la hora del siniestro |
+| [Open-Meteo](https://open-meteo.com) (datos meteorológicos históricos por hora) | Lluvia en la hora previa al siniestro |
 | [holidays](https://pypi.org/project/holidays/) (librería de Python) | Feriados nacionales de Argentina |
 
 ## Estructura del repositorio
@@ -61,6 +61,23 @@ prediccion_gravedad_siniestros_viales_caba/
 ├── requirements.txt  <- Librerías necesarias
 └── README.md
 ```
+
+## Cómo ejecutar el proyecto
+
+Probado con Python 3.14 (Anaconda) y Jupyter en VS Code.
+
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/juanpablomonllor/prediccion_gravedad_siniestros_viales_caba.git
+   cd prediccion_gravedad_siniestros_viales_caba
+   ```
+2. Instalar las dependencias (las versiones necesarias están en `requirements.txt`):
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Abrir y ejecutar completa la notebook `notebooks/1.0-jpm-eda-preprocesamiento.ipynb`. Lee los datos de `data/raw` y `data/external`, y genera `data/processed/siniestros_limpio.csv`.
+
+Las rutas a los datos son relativas a la carpeta `notebooks/`, por lo que no hace falta modificarlas si se mantiene la estructura del repositorio.
 
 ## Tecnologías utilizadas
 
