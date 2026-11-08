@@ -134,7 +134,7 @@ Las rutas a los datos son relativas a la carpeta `notebooks/`, por lo que no hac
 
 ## Tecnologías utilizadas
 
-`Python` · `Pandas` · `NumPy` · `Matplotlib` · `Scikit-learn` · `Jupyter Notebook`
+Python | Pandas | NumPy | Matplotlib | Scikit-learn | Jupyter Notebook
 
 ---
 
