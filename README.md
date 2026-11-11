@@ -136,6 +136,12 @@ Las rutas a los datos son relativas a la carpeta `notebooks/`, por lo que no hac
 
 Python | Pandas | NumPy | Matplotlib | Scikit-learn | Jupyter Notebook
 
+## Video de presentación
+
+[![Video de presentación del proyecto](https://img.youtube.com/vi/6m2ukPkYKy0/maxresdefault.jpg)](https://youtu.be/6m2ukPkYKy0)
+
+Presentación del proyecto en video (9:58 minutos), con subtítulos en español y capítulos por tema: [ver en YouTube](https://youtu.be/6m2ukPkYKy0).
+
 ---
 
 <p align="center">
